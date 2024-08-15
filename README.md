@@ -39,11 +39,15 @@ To install and run fiboCalc, follow these steps:
 - No additional dependencies
 
 ## Usage
-_Sample 1_
+#### _Sample 1_
+Input
 ```bash
 Displaying Fibonacci numbers from the 1st term to the nth term. Taking the 1st term as 0.
 Enter nth term: -1
-Enter nth term greater than 0
+```
+Output
+```bash
+Error -> Value less than 0 <- Enter a nth term greater than 0
 ```
 
 _Sample 2_

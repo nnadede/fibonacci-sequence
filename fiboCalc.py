@@ -72,7 +72,7 @@ try:
         print(f"{fib(nth_term, count, n_1_term, n_2_term)} \n")
     else:
         # If the user enters a non-positive number, display an error message
-        print("Enter nth term greater than 0") 
+        print("Error -> Value less than 0 <- Enter a nth term greater than 0") 
 except ValueError as e:
     # If the user input is not an integer, catch the ValueError and display a custom error message
     print(f'Invalid Value: {e}')
