@@ -34,6 +34,8 @@ count = 1  # Start with the first term
 # Define a lambda function to sum two numbers, representing the addition step in Fibonacci
 sum = lambda a, b: a + b
 
+
+
 # Define a recursive function to calculate and print the Fibonacci sequence up to the nth term
 def fib(nth_term, count, n_1_term, n_2_term):
     # Base cases to return the first or second term
@@ -54,6 +56,8 @@ def fib(nth_term, count, n_1_term, n_2_term):
         return fib(nth_term, count, n_1_term, n_2_term)  # Recursive call with updated values
     else:
         return num  # Return the nth term
+
+
 
 # Display a message to the user explaining what the program does
 print("\nDisplaying Fibonacci numbers from the 1st term to the nth term. Taking the 1st term as 0.")
