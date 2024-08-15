@@ -1,3 +1,29 @@
+
+"""
+Title: FiboCalc                                     Programmer: Nnaemeka Nnadede
+
+Description:
+
+This Python script calculates and displays the Fibonacci sequence up to the nth term,
+where the nth term is provided by the user. The Fibonacci sequence starts with 0 and 1,
+and each subsequent term is the sum of the two preceding ones.
+
+The program works as follows:
+- It initializes the first two terms of the Fibonacci sequence (0 and 1).
+- It uses a recursive function to compute each Fibonacci number up to the nth term.
+- The user is prompted to enter the desired term (n).
+- The program validates the user's input to ensure it is a positive integer.
+- If the input is valid, the program displays each Fibonacci number up to the nth term
+  on a single line.
+- If the user inputs an invalid value, the program handles the error gracefully by 
+  displaying an appropriate error message.
+
+This script is useful for educational purposes, demonstrating the use of recursion,
+input validation, and basic error handling in Python.
+"""
+
+
+
 # Initialize the first two terms of the Fibonacci sequence
 n_1_term = 0  # First term (n=1)
 n_2_term = 1  # Second term (n=2)
