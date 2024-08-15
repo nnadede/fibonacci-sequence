@@ -21,11 +21,16 @@ FiboCalc is a Python-based tool designed to simplify and automate the generation
 ## Installation
 To install and run MyAwesomeProject, follow these steps:
 
-Clone the repository:
+1) Clone the repository:
+
     git clone [https://git.cs.dal.ca/nnadede/fibonacci-sequence.git](https://git.cs.dal.ca/nnadede/fibonacci-sequence.git)
-Navigate to the project directory:
+
+2) Navigate to the project directory:
+
     cd fibonacci-sequence
-Run the Python script:
+
+3) Run the Python script:
+
     python fiboCalc.py
 
 ## Requirements
