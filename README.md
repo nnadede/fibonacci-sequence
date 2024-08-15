@@ -83,7 +83,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 Please make sure to update tests as appropriate.
 
 ## Authors and acknowledgment
-- Nnaemeka Nnadede - _Initial work_ - [@nnadede](https://git.cs.dal.ca/nnadede)
+- Nnaemeka Nnadede - _Initial work_ - [@nnadede](https://github.com/nnadede)
 - Special thanks to all contributors and reviewers!
 
 ## License
