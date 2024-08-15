@@ -15,6 +15,7 @@ def fib(nth_term, count, n_1_term, n_2_term):
         n_2_term = num
     if (count != nth_term):
         count+=1
+        print(num, end=" ")
         return fib(nth_term, count, n_1_term, n_2_term)
     else:
         return num
