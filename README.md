@@ -23,7 +23,7 @@ To install and run fiboCalc, follow these steps:
 
 1) Clone the repository:
     ```bash
-    git clone (https://git.cs.dal.ca/nnadede/fibonacci-sequence.git)
+    git clone https://git.cs.dal.ca/nnadede/fibonacci-sequence.git
     ```
 2) Navigate to the project directory:
     ```bash
@@ -39,7 +39,26 @@ To install and run fiboCalc, follow these steps:
 - No additional dependencies
 
 ## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
+### SAMPLE 1
+```bash
+Displaying Fibonacci numbers from the 1st term to the nth term. Taking the 1st term as 0.
+Enter nth term: -1
+Enter nth term greater than 0
+```
+
+### SAMPLE 2
+```bash
+Displaying Fibonacci numbers from the 1st term to the nth term. Taking the 1st term as 0.
+Enter nth term: sdcsd
+Invalid Value: invalid literal for int() with base 10: 'sdcsd'
+```
+
+### SAMPLE 3
+```bash
+Displaying Fibonacci numbers from the 1st term to the nth term. Taking the 1st term as 0.
+Enter nth term: 13
+0 1 1 2 3 5 8 13 21 34 55 89 144 
+```
 
 ## Support
 If you encounter any issues, feel free to open an issue on the GitHub Issues page or contact me via email at nn454994@dal.ca.
