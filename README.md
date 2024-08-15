@@ -15,8 +15,17 @@ FiboCalc (Fibonacci Calculator)
 ## Description
 FiboCalc is a Python-based tool designed to simplify and automate the generation of Fibonacci sequences for educational and computational purposes. This project provides a simple interface for calculating the nth term in the Fibonacci sequence, along with options for displaying sequences up to a specified term. The project is ideal for beginners who want to learn more about recursion, input handling, and basic algorithms.
 
+    Features:
+    - Calculate the nth term of the Fibonacci sequence.
+    - Display the full Fibonacci sequence up to a specified term.
+    - Error handling for invalid user inputs.
+    - Recursive and iterative implementations.
+
+    Background:
+    Fibonacci sequences are a series of numbers where each number is the sum of the two preceding ones, starting from 0 and 1. They have applications in various fields, including mathematics, computer science, and even art.
+
 ## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
+![Example output of the Fibonacci sequence calculation](image.png)
 
 ## Installation
 Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
