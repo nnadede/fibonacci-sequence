@@ -23,7 +23,7 @@ To install and run fiboCalc, follow these steps:
 
 1) Clone the repository:
     ```bash
-    git clone [https://git.cs.dal.ca/nnadede/fibonacci-sequence.git](https://git.cs.dal.ca/nnadede/fibonacci-sequence.git)
+    git clone (https://git.cs.dal.ca/nnadede/fibonacci-sequence.git)
     ```
 2) Navigate to the project directory:
     ```bash
@@ -59,7 +59,7 @@ Please make sure to update tests as appropriate.
 - Special thanks to all contributors and reviewers!
 
 ## License
-For open source projects, say how it is licensed.
+[MIT](LICENSE)
 
 ## Project status
 Active Development - The project is actively maintained and open to new contributors. However, if you are interested in becoming a maintainer, please reach out!
