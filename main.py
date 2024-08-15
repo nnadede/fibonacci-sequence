@@ -30,8 +30,7 @@ def fib(nth_term, count, n_1_term, n_2_term):
         return num  # Return the nth term
 
 # Display a message to the user explaining what the program does
-print("Displaying Fibonacci numbers from the 1st term to the nth term\n\
-    Taking the 1st term as 0.")
+print("\nDisplaying Fibonacci numbers from the 1st term to the nth term. Taking the 1st term as 0.")
 
 try:
     # Prompt the user to input the nth term they want to calculate
@@ -40,7 +39,7 @@ try:
     # Check if the input is a positive integer
     if (nth_term > 0):
         # Call the fib function and print the result (the nth Fibonacci number)
-        print(fib(nth_term, count, n_1_term, n_2_term))
+        print(f"{fib(nth_term, count, n_1_term, n_2_term)} \n")
     else:
         # If the user enters a non-positive number, display an error message
         print("Enter nth term greater than 0") 
