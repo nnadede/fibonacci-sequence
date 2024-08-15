@@ -42,7 +42,6 @@ To install and run fiboCalc, follow these steps:
 #### _Sample 1_
 Input
 ```bash
-Displaying Fibonacci numbers from the 1st term to the nth term. Taking the 1st term as 0.
 Enter nth term: -1
 ```
 Output
@@ -50,17 +49,23 @@ Output
 Error -> Value less than 0 <- Enter a nth term greater than 0
 ```
 
-_Sample 2_
+#### _Sample 2_
+Input
 ```bash
-Displaying Fibonacci numbers from the 1st term to the nth term. Taking the 1st term as 0.
 Enter nth term: sdcsd
+```
+Output
+```bash
 Invalid Value: invalid literal for int() with base 10: 'sdcsd'
 ```
 
-_Sample 3_
+#### _Sample 3_
+Input
 ```bash
-Displaying Fibonacci numbers from the 1st term to the nth term. Taking the 1st term as 0.
 Enter nth term: 13
+```
+Output
+```bash
 0 1 1 2 3 5 8 13 21 34 55 89 144 
 ```
 
